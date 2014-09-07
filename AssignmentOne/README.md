@@ -1,7 +1,12 @@
+AssignmentOne: Create a loan class using python
+=============
+
+Internet Programming Fall 2014
+
 In this problem you will create a Python class and a Python script that will use that class.
 
 Class Loan
-===========
+==========
 
 The class Loan represents a basic consumer loan, such as a mortgage. The class has four instance fields: the number of months in the term of the loan; the initial balance of the loan; the annual interest rate of the loan, as a decimal; the monthly payment on the loan.
 
@@ -53,3 +58,4 @@ Month      Balance In        Interest         Payment     Balance Out
    18         1607.83           13.40          544.90         1076.33
    19         1076.33            8.97          544.90          540.40
    20          540.40            4.50          544.90           -0.00
+
