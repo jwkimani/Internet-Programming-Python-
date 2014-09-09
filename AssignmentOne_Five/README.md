@@ -15,7 +15,7 @@ Write a Python script that will create a list of all products in the database, p
 -Product Vendor
 -Quantity in stock
 -Buy price
--**M**anufacturer’s **S**uggested **R**etail **P**rice
+-__M__anufacturer’s __S__uggested __R__etail __P__rice
 Note, the product description is omitted since it can be very long.
 
 The table should align the fields into columns. The table will probably be very wide. Print a row of headers for the columns first.
