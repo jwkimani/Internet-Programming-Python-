@@ -18,7 +18,6 @@ Write a Python script that will create a list of all products in the database, p
   - Quantity in stock
   - Buy price
   - __M__ anufacturer’s __S__ uggested __R__ etail __P__ rice
-  >
 
 Note, the product description is omitted since it can be very long.
 
