@@ -5,12 +5,14 @@ Create two Python scripts that will print out information from the Classic Model
 
 The first script will list all customers with the following information:
 
-> - Customer number
+> 
+  - Customer number
   - Customer name
   - Total of payments made
   - Total value of all orders made
   - Credit limit
   - Amount of available credit (credit limit plus the total payments made minus the total value of all orders made)
+  
 The list should be in a tabular format with data lined up in columns.
 
 The second script will list the same information but will just list those customers who have exceeded their credit limit.
