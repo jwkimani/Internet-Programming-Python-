@@ -8,14 +8,18 @@ Script 1
 
 Write a Python script that will create a list of all products in the database, providing the following information for each product:
 
--Product Code
--Product Name
--Product Line
--Product Scale
--Product Vendor
--Quantity in stock
--Buy price
--__M__anufacturer’s __S__uggested __R__etail __P__rice
+
+>
+  - Product Code
+  - Product Name
+  - Product Line
+  - Product Scale
+  - Product Vendor
+  - Quantity in stock
+  - Buy price
+  - **M**anufacturer’s __S__uggested __R__etail __P__rice
+  >
+
 Note, the product description is omitted since it can be very long.
 
 The table should align the fields into columns. The table will probably be very wide. Print a row of headers for the columns first.
