@@ -1,5 +1,5 @@
 __author__ = 'James W. Kimani'
-import psycopg2
+
 '''
 Write a Python script that will create a list of all products in the database, providing the following information for each product:
     - Product Code
@@ -18,6 +18,8 @@ columns first.
 Assume a PostgreSQL database in standard configuration. The Classic Models data will be in a database/schema named birt.
 The user birt with password birt will have access to the schema.
 '''
+
+import psycopg2
 
 conn = psycopg2.connect(database="birt", user = "birt", password="birt")
 get_cmd = "select productcode, productname, productline, productscale, productvendor, quantityinstock, buyprice, msrp from products"
