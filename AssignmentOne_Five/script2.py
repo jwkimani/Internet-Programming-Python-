@@ -23,7 +23,7 @@ def main():
     header = "{:20} {:<50} {:<20} {:<40} {:<30} {:<20} {:<10}".format("Product Code", "Product Name",
                                                                       "Product Scale", "Product Vendor", "Quantity in "
                                                                         "Stock", "Buy Price", "M.S.R.P")
-    print('\n',productLine)
+    print('\nThis is a list of all the %s' % productLine)
     print("{:=^197}".format('='))
     print(header)
     print("{:=^197}".format('='))
