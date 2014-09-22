@@ -29,7 +29,4 @@ for a in range(0,len(results)):
 for p in cusnum:
     crs2.execute("select amount from payments where customernumber = %i" % (p))
     for c in crs2:
-        print(c, p)
-
-for a in crs2:
-    print(a)
+        print(c[0], p)
