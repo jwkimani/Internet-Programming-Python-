@@ -1,0 +1,135 @@
+/*
+    Document   : assignment3-style
+    Created on : December 30, 2014
+    Author     : Ben Setzer
+    Description:
+        Provides a distinctive look to the assignment.
+*/
+
+html {
+    background-color: #cdba96;  /* wheat 3 */
+}
+
+body {
+    margin-left: 40%;
+    margin-right: 15%;
+    background-color: #ffe7ba;  /* wheat */
+    /*background-color: #ddd;*/
+    border-style: groove;
+    border-width: 4px;
+    padding: 15px;
+    border-color: #8b7e66;  /* wheat 4 */
+}
+
+
+
+
+
+
+dt {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff7f24;  /* chocolate 1*/
+}
+
+
+
+
+.hint:before {
+    content: "(HINT)";
+    background-color: blue;
+    font-size: 2em;
+}
+
+.hint {
+     color: #8b7e66;  /* wheat 4 */
+     background-color: #8b7e66;  /* wheat 4 */
+}
+
+th {
+    background-color: #8fbc8f; /* dark sea green */
+}
+
+td {
+    background-color: #2e8b57 ; /*  sea green */
+}
+
+
+
+table.grid, table.grid th, table.grid td {
+    border-style: dashed;
+    border-collapse: collapse;
+    border-width: 6px;
+    padding: 5px;
+    border-color: #7fff00; /* chartreuse 1 */
+    /*text-align: right;*/
+    background-color: black;
+    color: gray;
+}
+
+
+
+
+ol > li {
+    list-style-type: upper-roman;
+    color: #00f5ff;  /* turquoise1 */
+}
+
+ol > li > ol > li {
+    list-style-type: upper-alpha;
+    color: #00c5cd;  /* turquoise3 */
+}
+
+
+
+
+/* outline line style lists */
+ol.outline > li {
+    list-style-type: upper-roman;
+    color: #ff3e96;  /* VioletRed1 */
+}
+
+ol.outline > li > ol > li {
+    list-style-type: upper-alpha;
+    color: #f0f;  /* Magenta */
+}
+
+ol.outline > li > ol > li > ol >  li {
+    list-style-type: decimal;
+}
+
+
+ol.outline > li > ol > li > ol > li > ol > li {
+    list-style-type: lower-alpha;
+}
+
+ol.outline > li > ol > li > ol > li > ol > li > ol > li {
+    list-style-type: lower-roman;
+}
+
+ol.outline > li > ol > li > ol > li > ol > li > ol > li > ol > li {
+    list-style-type: lower-greek;
+}
+
+
+p {
+    background-color: #8b0000;  /* dark red */
+    color: white;
+}
+
+h1 {
+    color: #0f0;
+    font-size: 3em;
+}
+
+h2 {
+    color: #00f;
+    font-size: 2.5em;
+}
+
+a {
+    font-style: italic;
+    font-size: large;
+    color: #0f0;
+    background-color: #00f;
+}
