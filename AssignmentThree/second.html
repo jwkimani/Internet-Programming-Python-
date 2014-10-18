@@ -1,10 +1,432 @@
+<!--
+second.html should include the following features
+Put all the remaining contents of this page in a div with the id `content`.
+A table, at least 3 by 3, using the grid class
+A table, at least 3 by 3, using default styling
+Two levels of headers
+A paragraph with class `hint`. The assignment will use different colors, but try highlighting the area after 'Hint->'
+ Like this!
+ -->
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="assignment3-style.css">
+    <title>Second HTML</title>
 </head>
 <body>
+<div>
+<h1>Kenyan population by province in 2009 census</h1>
+<p>Kenya was formely divided into 8 Provinces. Below is a table that outlines the individual provinces and their respective population </p>
+<table class="grid">
+    <tr>
+        <th>Province</th>
+        <th>Census</th>
+        <th>Area(km<sup>2</sup>)</th>
+    </tr>
+    <tr>
+        <td>Nairobi(Capital City)</td>
+        <td>3,138,369</td>
+        <td>694.9</td>
+    </tr>
+    <tr>
+        <td>Central</td>
+        <td>4,383,743</td>
+        <td>11,449.1</td>
+    </tr>
+    <tr>
+        <td>Coast</td>
+        <td>3,325,307</td>
+        <td>79,686.1</td>
+    </tr>
+    <tr>
+        <td>Eastern</td>
+        <td>5,668,123</td>
+        <td>140,698.6</td>
+    </tr>
+    <tr>
+        <td>North Eastern</td>
+        <td>2,310,757</td>
+        <td>127,358.5</td>
+    </tr>
+    <tr>
+        <td>Nyanza</td>
+        <td>5,442,711</td>
+        <td>12,477.1</td>
+    </tr>
+    <tr>
+        <td>Rift Valley</td>
+        <td>10,006,805</td>
+        <td>182,505.1</td>
+    </tr>
+    <tr>
+        <td>Western</td>
+        <td>4,334,282</td>
+        <td>7,400.4</td>
+    </tr>
+    <tr>
+        <th>Totals</th>
+        <th>38,610,097</th>
+        <th>581,309.0</th>
+    </tr>
 
+</table>
+
+<br/>
+<h2>List of Counties</h2>
+<p>Under the new constitution, Kenya is now divided into 47 counties for administrative purposes. They are grouped below
+    according to the former province of which they were part, with their areas and 2009 Census populations</p>
+<table>
+<tr>
+<th>County</th>
+<th>Former Province</th>
+<th>Area (km<sup>2</sup>)</th>
+<th>Population<br />
+Census 2009</th>
+<th>Capital</th>
+</tr>
+<tr>
+<td>Mombasa County</td>
+<td>Coast</td>
+<td>212.5</td>
+<td>939,370</td>
+<td>Mombasa (City)</td>
+</tr>
+<tr>
+<td>Kwale County</td>
+<td>Coast</td>
+<td>8,270.3</td>
+<td>649,931</td>
+<td>Kwale</td>
+</tr>
+<tr>
+<td>Kilifi County</td>
+<td>Coast</td>
+<td>12,245.9</td>
+<td>1,109,735</td>
+<td>Kilifi</td>
+</tr>
+<tr>
+<td>Tana River County</td>
+<td>Coast</td>
+<td>35,375.8</td>
+<td>240,075</td>
+<td>Hola</td>
+</tr>
+<tr>
+<td>Lamu County</td>
+<td>Coast</td>
+<td>6,497.7</td>
+<td>101,539</td>
+<td>Lamu</td>
+</tr>
+<tr>
+<td>Taita-Taveta County</td>
+<td>Coast</td>
+<td>17,083.9</td>
+<td>284,657</td>
+<td>Voi</td>
+</tr>
+<tr>
+<td>Garissa County</td>
+<td>North Eastern</td>
+<td>45,720.2</td>
+<td>623,060</td>
+<td>Garissa</td>
+</tr>
+<tr>
+<td>Wajir County</td>
+<td>North Eastern</td>
+<td>55,840.6</td>
+<td>661,941</td>
+<td>Wajir</td>
+</tr>
+<tr>
+<td>Mandera County</td>
+<td>North Eastern</td>
+<td>25,797.7</td>
+<td>1,025,756</td>
+<td>Mandera</td>
+</tr>
+<tr>
+<td>Marsabit County</td>
+<td>Eastern</td>
+<td>66,923.1</td>
+<td>291,166</td>
+<td>Marsabit</td>
+</tr>
+<tr>
+<td>Isiolo County</td>
+<td>Eastern</td>
+<td>25,336.1</td>
+<td>143,294</td>
+<td>Isiolo</td>
+</tr>
+<tr>
+<td>Meru County</td>
+<td>Eastern</td>
+<td>6,930.1</td>
+<td>1,356,301</td>
+<td>Meru</td>
+</tr>
+<tr>
+<td>Tharaka-Nithi County</td>
+<td>Eastern</td>
+<td>2,409.5</td>
+<td>365,330</td>
+<td>Chuka</td>
+</tr>
+<tr>
+<td>Embu County</td>
+<td>Eastern</td>
+<td>2,555.9</td>
+<td>516,212</td>
+<td>Embu</td>
+</tr>
+<tr>
+<td>Kitui County</td>
+<td>Eastern</td>
+<td>24,385.1</td>
+<td>1,012,709</td>
+<td>Kitui</td>
+</tr>
+<tr>
+<td>Machakos County</td>
+<td>Eastern</td>
+<td>5,952.9</td>
+<td>1,098,584</td>
+<td>Machakos</td>
+</tr>
+<tr>
+<td>Makueni County</td>
+<td>Eastern</td>
+<td>8,008.9</td>
+<td>884,527</td>
+<td>Wote</td>
+</tr>
+<tr>
+<td>Nyandarua County</td>
+<td>Central</td>
+<td>3,107.7</td>
+<td>596,268</td>
+<td>Ol Kalou</td>
+</tr>
+<tr>
+<td>Nyeri County</td>
+<td>Central</td>
+<td>2,361.0</td>
+<td>693,558</td>
+<td>Nyeri</td>
+</tr>
+<tr>
+<td>Kirinyaga County</td>
+<td>Central</td>
+<td>1,205.4</td>
+<td>528,054</td>
+<td>Kerugoya / Kutus</td>
+</tr>
+<tr>
+<td>Murang'a County</td>
+<td>Central</td>
+<td>2,325.8</td>
+<td>942,581</td>
+<td>Murang'a</td>
+</tr>
+<tr>
+<td>Kiambu County</td>
+<td>Central</td>
+<td>2,449.2</td>
+<td>1,623,282</td>
+<td>Kiambu</td>
+</tr>
+<tr>
+<td>Turkana County</td>
+<td>Rift Valley</td>
+<td>71,597.8</td>
+<td>855,399</td>
+<td>Lodwar</td>
+</tr>
+<tr>
+<td>West Pokot County</td>
+<td>Rift Valley</td>
+<td>8,418.2</td>
+<td>512,690</td>
+<td>Kapenguria</td>
+</tr>
+<tr>
+<td>Samburu County</td>
+<td>Rift Valley</td>
+<td>20,182.5</td>
+<td>223,947</td>
+<td>Maralal</td>
+</tr>
+<tr>
+<td>Trans Nzoia County</td>
+<td>Rift Valley</td>
+<td>2,469.9</td>
+<td>818,757</td>
+<td>Kitale</td>
+</tr>
+<tr>
+<td>Uasin Gishu County</td>
+<td>Rift Valley</td>
+<td>2,955.3</td>
+<td>894,179</td>
+<td>Eldoret</td>
+</tr>
+<tr>
+<td>Elgeyo-Marakwet County</td>
+<td>Rift Valley</td>
+<td>3,049.7</td>
+<td>369,998</td>
+<td>Iten</td>
+</tr>
+<tr>
+<td>Nandi County</td>
+<td>Rift Valley</td>
+<td>2,884.5</td>
+<td>752,965</td>
+<td>Kapsabet</td>
+</tr>
+<tr>
+<td>Baringo County</td>
+<td>Rift Valley</td>
+<td>11,075.3</td>
+<td>555,561</td>
+<td>Kabarnet</td>
+</tr>
+<tr>
+<td>Laikipia County</td>
+<td>Rift Valley</td>
+<td>8,696.1</td>
+<td>399,227</td>
+<td>Rumuruti</td>
+</tr>
+<tr>
+<td>Nakuru County</td>
+<td>Rift Valley</td>
+<td>7,509.5</td>
+<td>1,603,325</td>
+<td>Nakuru</td>
+</tr>
+<tr>
+<td>Narok County</td>
+<td>Rift Valley</td>
+<td>17,921.2</td>
+<td>850,920</td>
+<td>Narok</td>
+</tr>
+<tr>
+<td>Kajiado County</td>
+<td>Rift Valley</td>
+<td>21,292.7</td>
+<td>687,312</td>
+<td>Kajiado</td>
+</tr>
+<tr>
+<td>Kericho County</td>
+<td>Rift Valley</td>
+<td>2,454.5</td>
+<td>752,396</td>
+<td>Kericho</td>
+</tr>
+<tr>
+<td>Bomet County</td>
+<td>Rift Valley</td>
+<td>1,997.9</td>
+<td>730,129</td>
+<td>Bomet</td>
+</tr>
+<tr>
+<td>Kakamega County</td>
+<td>Western</td>
+<td>3,033.8</td>
+<td>1,660,651</td>
+<td>Kakamega</td>
+</tr>
+<tr>
+<td>Vihiga County</td>
+<td>Western</td>
+<td>531.3</td>
+<td>554,622</td>
+<td>Vihiga</td>
+</tr>
+<tr>
+<td>Bungoma County</td>
+<td>Western</td>
+<td>2,206.9</td>
+<td>1,375,063</td>
+<td>Bungoma</td>
+</tr>
+<tr>
+<td>Busia County</td>
+<td>Western</td>
+<td>1,628.4</td>
+<td>743,946</td>
+<td>Busia</td>
+</tr>
+<tr>
+<td>Siaya County</td>
+<td>Nyanza</td>
+<td>2,496.1</td>
+<td>842,304</td>
+<td>Siaya</td>
+</tr>
+<tr>
+<td>Kisumu County</td>
+<td>Nyanza</td>
+<td>2,009.5</td>
+<td>968,909</td>
+<td>Kisumu</td>
+</tr>
+<tr>
+<td>Homa Bay County</td>
+<td>Nyanza</td>
+<td>3,154.7</td>
+<td>963,794</td>
+<td>Homa Bay</td>
+</tr>
+<tr>
+<td>Migori County</td>
+<td>Nyanza</td>
+<td>2,586.4</td>
+<td>917,170</td>
+<td>Migori</td>
+</tr>
+<tr>
+<td>Kisii County</td>
+<td>Nyanza</td>
+<td>1,317.9</td>
+<td>1,152,282</td>
+<td>Kisii</td>
+</tr>
+<tr>
+<td>Nyamira County</td>
+<td>Nyanza</td>
+<td>912.5</td>
+<td>598,252</td>
+<td>Nyamira</td>
+</tr>
+<tr>
+<td>Nairobi County</td>
+<td>Nairobi</td>
+<td>694.9</td>
+<td>3,138,369</td>
+<td>Nairobi (City)</td>
+</tr>
+<tr>
+<th></th>
+<th><i><b>Totals</b></i></th>
+<th>581,309.0</th>
+<th>38,610,097</th>
+<th>Nairobi</th>
+</tr>
+</table>
+<br/>
+
+<p class="hint">There are about 42 different tribes in Kenya - each of these with its own unique culture, but majority
+    of them with intertwining cultural practices brought about by the close resemblance in the languages,</p>
+</div>
 </body>
 </html>
