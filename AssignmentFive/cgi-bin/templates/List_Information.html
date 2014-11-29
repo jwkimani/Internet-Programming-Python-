@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+    {% block title %}
+    <title>Customers Information</title>
+    {% endblock %}
+
+    {% block content %}
+
+        <table>
+            <tr><th>Name</th></tr>
+            {% for person in customer_list %}
+                <tr>
+                   <!--  <td>{{person[0]}}</td>  -->
+                    <td>
+ <a href="http://localhost/cgi-bin/Information.py?customername={{person[1]}}">
+                            {{person[1]}}
+                        </a>
+                    </td>
+                <!--    <td>{{person[2]}}</td>
+                    <td>{{person[3]}}</td>
+                    <td>{{person[4]}}</td>
+                    <td>{{person[5]}}</td> -->
+                </tr>
+            {% endfor %}
+        </table>
+    {% endblock %}

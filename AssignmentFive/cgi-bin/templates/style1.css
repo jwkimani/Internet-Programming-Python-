@@ -1,0 +1,96 @@
+/* 
+    Document   : style1
+    Created on : Mar 25, 2012, 11:30:27 PM
+    Author     : Ben
+    Description:
+        Provide styling in a better manner than the text.
+*/
+
+html {
+    background-color: #cdba96;  /* wheat 3 */    
+}
+
+h1{
+border-style: solid;
+}
+
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ffe7ba;  /* wheat */
+    border-style: groove;
+    border-width: 4px;
+    padding: 15px;
+    border-color: #8b7e66;  /* wheat 4 */
+}
+
+th {
+    background-color: #ccc;    
+}
+
+th.narrow {
+    background-color: #ccc;
+    width: 5em;
+    text-align: left;
+}
+
+.title {
+    
+    text-indent: 5em;
+}
+
+th.wide {
+    width: 10em;
+    background-color: #ccc;
+    text-align: left;
+}
+   
+
+.numeric {
+    text-align: right;
+}
+            
+.center {
+    text-align: center;
+}
+
+.otherTable {
+ display: table;
+   display: table-cell;
+    padding-right: 1em;
+   border-collapse: collapse;
+   border-width: 3px;
+   padding: 5px;
+}
+div.data-grid {
+    display: table;
+
+}
+
+div.data-grid > div {
+    display: table-row;
+}
+
+div.data-grid > div > span {
+    display: table-cell;
+    padding-right: 1em;
+}
+
+
+div.data-grid > div > label {
+    display: table-cell;
+    padding-right: 1em;
+}
+
+.error {
+    color: red;
+}
+
+table.grid, table.grid th, table.grid td {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 3px;
+  padding: 5px;
+   }
+
+
